@@ -1,0 +1,10 @@
+#nav-bar {
+	justify-content: center;
+	display: flex;
+}
+
+#nav-bar h2 {
+	font-size: 16px;
+	color: #FFFFFF;
+	
+}
