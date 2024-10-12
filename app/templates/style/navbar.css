@@ -1,10 +1,24 @@
 #nav-bar {
-	justify-content: center;
-	display: flex;
+	background-color: #c0c0c0;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 1s ease-out, opacity 1s ease-out;
+    z-index: 1; /* Asegura que el nav-bar esté encima del video */
 }
 
+/* Cuando se muestra la barra de navegación */
+#nav-bar.show {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+/* Diseño del texto en la navbar */
 #nav-bar h2 {
-	font-size: 16px;
-	color: #FFFFFF;
-	
+    font-size: 16px;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
 }

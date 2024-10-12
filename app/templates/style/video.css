@@ -1,0 +1,15 @@
+/* Para el video, ocupará todo el viewport */
+.video-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; /* Asegura que no haya desbordamiento */
+}
+
+video {
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    height: 106%; /* Ocupa todo el alto de la pantalla */
+    object-fit: cover; /* Asegura que el video cubra el área sin dejar espacios */
+    position: absolute; /* Asegura que el video esté fijo */
+    top: 0;
+    left: 0;
+}
