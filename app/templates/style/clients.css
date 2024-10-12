@@ -1,0 +1,22 @@
+#clients-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	background-color: black;
+}
+
+#clients-section h2{
+	color: #ffffff;
+	text-align: center;
+}
+
+#clients-logo {
+	display: flex;
+	justify-content: center;
+	color: #FFFFFF;
+	gap:20px
+}
+
+
+
